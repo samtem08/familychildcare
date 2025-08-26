@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>All Family Child Care</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+<div class="overlay" id="overlay"></div>
+
+<section class="header">
+    <nav class="navbar">
+        <a href="index.html" class="brand">
+            <img src="images/Logo1.png" alt="Logo" class="nav-logo">
+            <span class="brand-text">All Family Child Care</span>
+        </a>
+
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+    <i class="fas fa-moon"></i>
+</button>
+
+        <div class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="services.html"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a href="resources.html"><i class="fas fa-graduation-cap"></i> Resources</a></li>
+                <li class="active"><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>   
+            </ul>
+        </div>
+    </nav>
+</section>  
+
+<section class="hero5">
+    <div class="text-box">
+        <h1>Contact Us</h1>
+        <p>We are alwalys ready to answer any questions and advice you have for us.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section">
+    <div class="contact-content">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p><i>📍</i> 618 N College Street, Apt A, Killeen TX 76541, USA</p>
+            <p><i>📞</i> (407) 693 7078, (254) 569-0580</p>
+            <p><i>📧</i> info@allfamilychildcare.com</p>
+            <p>We are here to answer any questions you have about our services. Fill out the form or reach out directly.</p>
+            
+              <button a class="btn-whats" href="https://wa.me/+1 407-693-7078" target="_blank" rel="noopener">Chat on WhatsApp</a>
+              <button a class="btn-call" href="tel:+1 254-569-0580">Call Us</a>
+            
+
+
+        </div>
+
+        <form action="https://formspree.io/f/mdkdjqpq" method="post" class="contact-form">
+            <h2>Send a Message</h2>    
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="from_name" placeholder="Your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="reply_to" placeholder="you@example.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        
+    </div>
+      
+
+</section>
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+
+        <!-- Quick Links -->
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="services.html"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a href="resources.html"><i class="fas fa-graduation-cap"></i> Resources</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-section">
+            <h3>Contact Info</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 618 N College Street, Apt A, Killeen TX 76541, USA</li>
+                <li><i class="fas fa-phone"></i>(407) 693 7078, (254) 569-0580</li>
+                <li><i class="fas fa-envelope"></i> info@allfamilychildcare.com</li>
+            </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 All Family Child Care. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+<!-- Google Maps API -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC45CvFwoh6_et3V6IBLaF9S9yce0jhJP0&libraries=places&callback=initMap"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
